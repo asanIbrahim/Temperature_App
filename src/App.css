@@ -1,0 +1,77 @@
+body {
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+min-height: 100vh;
+
+
+}
+
+.Container {
+
+
+background: #76D7C4;
+height: 400px;
+width: 300px;
+border-radius: 20px;
+box-shadow: 5px 3px 4px 3px rgba(0, 0, 0, 0.5);
+
+}
+.Temperature-container{
+
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70%;
+}
+
+.Temperature-display {
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 48px;
+color: #ffffff;
+border: 2px solid #ffffff;
+border-radius: 50%;
+height: 170px;
+width: 190px;
+}
+
+.button-container {
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+button {
+
+    background: #ABB2B9;
+    border: 2px solid ;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 32px;
+    color: #ffffff;
+
+}
+
+button:hover{
+
+    background: #F5B7B1 ;
+    cursor: pointer;
+}
+
+.hot{
+
+   background: #F7DC6F; 
+}
+
+.cold{
+
+    background:#2980B9;
+}
