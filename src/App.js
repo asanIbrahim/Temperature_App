@@ -11,7 +11,7 @@ const App = () => {
             setTemperatureColor("hot")
         }
     }
-
+//test
     const winter = () => {
         if (temperature === 0) return
         const winterClimate = temperature - 1
